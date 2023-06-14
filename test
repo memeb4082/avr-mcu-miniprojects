@@ -1,0 +1,6 @@
+def vector_magnitude(vector):
+    mag = 0
+    for scalar in vector:
+        mag += scalar ** 2
+    return mag ** 0.5
+print(vector_magnitude((10,4)))
